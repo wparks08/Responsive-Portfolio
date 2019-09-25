@@ -169,10 +169,6 @@ footer {
   transition: background-color ease 0.5s;
 }
 
-.text {
-  border-radius: 0 15px 15px 0;
-}
-
 .portfolio-link .text:hover {
   background-color: rgba(74, 170, 165, 1);
 }
@@ -207,6 +203,10 @@ footer {
   .container {
     width: 640px;
   }
+
+  div.flex-container {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -231,7 +231,7 @@ footer {
   }
 
   .container {
-    width: 440px;
+    width: 80%;
     margin: 40px auto;
   }
 }
